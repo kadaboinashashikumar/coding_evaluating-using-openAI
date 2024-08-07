@@ -1,4 +1,4 @@
-# coding_evaluating-usind-openAI
+# coding_evaluating-using-openAI
 openai_flask_app/
 ├── app.py
 ├── templates/
