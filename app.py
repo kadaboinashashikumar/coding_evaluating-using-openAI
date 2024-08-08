@@ -3,14 +3,15 @@
 
 
 #@title openai_key and Import
-
 import openai
-
-api_key = 'ysdfksk;ljdf' #enter your api key
-openai.api_key = api_key
+from dotenv import load_dotenv
 
 
+# Load environment variables from .env file
+load_dotenv()
 
+# Retrieve OpenAI API key from environment variables
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 #@title evaluating code
